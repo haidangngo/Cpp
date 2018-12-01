@@ -56,5 +56,6 @@ int main()
     else
         std::cout << "cmd_01->get_cmd_id() = " << cmd_01->get_cmd_id() << std::endl;
 
+    std::cout << "hello world" << std::endl;
     return 0;
 }
