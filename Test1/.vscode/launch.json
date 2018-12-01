@@ -6,16 +6,17 @@
     "configurations": [
         {
             "name": "(gdb) Launch",
+            "logging": { "trace": true, "traceResponse": true },
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/build/study.exe",
+            "program": "${workspaceFolder}/build/e.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
-            "externalConsole": true,
+            "externalConsole": false,
             "MIMode": "gdb",
-            "miDebuggerPath": "/path/to/gdb",
+            "miDebuggerPath": "C:\\cygwin64\\bin\\gdb.exe",
             "setupCommands": [
                 {
                     "description": "Enable pretty-printing for gdb",
